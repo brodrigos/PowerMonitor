@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerMonitor Pro</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3e 50%, #0a0a2e 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(0, 255, 150, 0.03) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(0, 150, 255, 0.03) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 80%, rgba(255, 100, 0, 0.03) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .app { position: relative; z-index: 1; max-width: 1400px; margin: 0 auto; padding: 20px; }
+
+        /* Header */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 30px;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            margin-bottom: 24px;
+        }
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            background: linear-gradient(90deg, #00ff96, #00b4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .header h1::before { content: '⚡'; font-size: 30px; -webkit-text-fill-color: initial; }
+        .status-badge {
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .status-badge.online { background: rgba(0,255,150,0.15); color: #00ff96; }
+        .status-badge.offline { background: rgba(255,60,60,0.15); color: #ff3c3c; }
+        .status-dot {
+            width: 8px; height: 8px; border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        .online .status-dot { background: #00ff96; }
+        .offline .status-dot { background: #ff3c3c; }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .card {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 24px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .card:hover {
+            border-color: rgba(255,255,255,0.15);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            border-radius: 16px 16px 0 0;
+        }
+        .card.power::before { background: linear-gradient(90deg, #ff6b00, #ffaa00); }
+        .card.cpu::before { background: linear-gradient(90deg, #00ff96, #00cc77); }
+        .card.gpu::before { background: linear-gradient(90deg, #00b4ff, #0088ff); }
+        .card.ram::before { background: linear-gradient(90deg, #c084fc, #a855f7); }
+        .card.energy::before { background: linear-gradient(90deg, #f472b6, #ec4899); }
+        .card.temp::before { background: linear-gradient(90deg, #ef4444, #f97316); }
+
+        .card-icon { font-size: 32px; margin-bottom: 12px; }
+        .card-value {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 4px;
+        }
+        .card.power .card-value { color: #ffaa00; }
+        .card.cpu .card-value { color: #00ff96; }
+        .card.gpu .card-value { color: #00b4ff; }
+        .card.ram .card-value { color: #c084fc; }
+        .card.energy .card-value { color: #f472b6; }
+        .card.temp .card-value { color: #ef4444; }
+
+        .card-label { font-size: 13px; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 1px; }
+        .card-sub { font-size: 12px; color: rgba(255,255,255,0.3); margin-top: 8px; }
+
+        /* Charts */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        @media (max-width: 900px) { .charts-grid { grid-template-columns: 1fr; } }
+
+        .chart-box {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+        }
+        .chart-box h3 {
+            font-size: 14px;
+            color: rgba(255,255,255,0.6);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+        .chart-container { position: relative; height: 250px; }
+
+        /* Table */
+        .table-box {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+        }
+        .table-box h3 {
+            font-size: 14px;
+            color: rgba(255,255,255,0.6);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+        table { width: 100%; border-collapse: collapse; }
+        th {
+            text-align: left;
+            padding: 12px 16px;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: rgba(255,255,255,0.4);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        td {
+            padding: 12px 16px;
+            font-size: 14px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        tr:hover td { background: rgba(255,255,255,0.02); }
+        td.val-w { color: #ffaa00; font-weight: 600; }
+        td.val-green { color: #00ff96; }
+        td.val-blue { color: #00b4ff; }
+        td.val-purple { color: #c084fc; }
+
+        /* No data message */
+        .no-data {
+            text-align: center;
+            padding: 60px;
+            color: rgba(255,255,255,0.3);
+        }
+        .no-data .icon { font-size: 48px; margin-bottom: 16px; }
+        .no-data p { font-size: 16px; }
+
+        /* Loading spinner */
+        .spinner {
+            display: inline-block;
+            width: 20px; height: 20px;
+            border: 2px solid rgba(255,255,255,0.1);
+            border-top-color: #00ff96;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: rgba(255,255,255,0.02); }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <h1>PowerMonitor Pro</h1>
+            <div class="status-badge offline" id="statusBadge">
+                <span class="status-dot"></span>
+                <span id="statusText">Conectando...</span>
+            </div>
+        </div>
+
+        <div class="cards-grid" id="cardsGrid">
+            <div class="card power">
+                <div class="card-icon">⚡</div>
+                <div class="card-value" id="cardPower">-- W</div>
+                <div class="card-label">Potência</div>
+                <div class="card-sub" id="cardPowerSub">Atualizado</div>
+            </div>
+            <div class="card cpu">
+                <div class="card-icon">🖥️</div>
+                <div class="card-value" id="cardCpu">--%</div>
+                <div class="card-label">CPU</div>
+                <div class="card-sub" id="cardCpuSub">Carga</div>
+            </div>
+            <div class="card gpu">
+                <div class="card-icon">🎮</div>
+                <div class="card-value" id="cardGpu">--%</div>
+                <div class="card-label">GPU</div>
+                <div class="card-sub" id="cardGpuSub">Carga</div>
+            </div>
+            <div class="card ram">
+                <div class="card-icon">💾</div>
+                <div class="card-value" id="cardRam">--%</div>
+                <div class="card-label">RAM</div>
+                <div class="card-sub" id="cardRamSub">Uso</div>
+            </div>
+            <div class="card energy">
+                <div class="card-icon">🔋</div>
+                <div class="card-value" id="cardEnergy">-- kWh</div>
+                <div class="card-label">Energia Total</div>
+                <div class="card-sub" id="cardEnergySub">Desde início</div>
+            </div>
+            <div class="card temp">
+                <div class="card-icon">🌡️</div>
+                <div class="card-value" id="cardTemp">--°C</div>
+                <div class="card-label">Temperatura</div>
+                <div class="card-sub" id="cardTempSub">CPU</div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-box">
+                <h3>📈 Consumo de Potência (W)</h3>
+                <div class="chart-container"><canvas id="powerChart"></canvas></div>
+            </div>
+            <div class="chart-box">
+                <h3>📊 Carga dos Componentes (%)</h3>
+                <div class="chart-container"><canvas id="loadChart"></canvas></div>
+            </div>
+        </div>
+
+        <div class="table-box">
+            <h3>📋 Registros Recentes</h3>
+            <div style="overflow-x: auto;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Horário</th>
+                            <th>Potência</th>
+                            <th>CPU</th>
+                            <th>GPU</th>
+                            <th>RAM</th>
+                            <th>Temperatura</th>
+                        </tr>
+                    </thead>
+                    <tbody id="historyTable">
+                        <tr><td colspan="6" class="no-data"><div class="icon">⏳</div><p>Aguardando dados...</p></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const powerChart = new Chart(document.getElementById('powerChart'), {
+            type: 'line',
+            data: {
+                labels: [],
+                datasets: [{
+                    label: 'Potência (W)',
+                    data: [],
+                    borderColor: '#ffaa00',
+                    backgroundColor: 'rgba(255,170,0,0.1)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: 0,
+                    pointHoverRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { display: false },
+                    y: {
+                        ticks: { color: 'rgba(255,255,255,0.4)', font: { size: 10 } },
+                        grid: { color: 'rgba(255,255,255,0.05)' }
+                    }
+                },
+                animation: { duration: 500 }
+            }
+        });
+
+        const loadChart = new Chart(document.getElementById('loadChart'), {
+            type: 'line',
+            data: {
+                labels: [],
+                datasets: [
+                    { label: 'CPU', data: [], borderColor: '#00ff96', borderWidth: 2, fill: false, tension: 0.4, pointRadius: 0 },
+                    { label: 'GPU', data: [], borderColor: '#00b4ff', borderWidth: 2, fill: false, tension: 0.4, pointRadius: 0 },
+                    { label: 'RAM', data: [], borderColor: '#c084fc', borderWidth: 2, fill: false, tension: 0.4, pointRadius: 0 }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { labels: { color: 'rgba(255,255,255,0.6)', font: { size: 11 } } }
+                },
+                scales: {
+                    x: { display: false },
+                    y: {
+                        min: 0, max: 100,
+                        ticks: { color: 'rgba(255,255,255,0.4)', font: { size: 10 }, stepSize: 25 },
+                        grid: { color: 'rgba(255,255,255,0.05)' }
+                    }
+                },
+                animation: { duration: 500 }
+            }
+        });
+
+        let dataHistory = [];
+        let connected = false;
+
+        async function fetchData() {
+            try {
+                // Usar o host/porta atual da página para funcionar com SSH tunnel
+                const host = window.location.origin;
+                const [statsRes, historyRes] = await Promise.all([
+                    fetch('/api/stats'),
+                    fetch('/api/history')
+                ]);
+
+                if (!statsRes.ok || !historyRes.ok) throw new Error('Erro na requisição');
+
+                const stats = await statsRes.json();
+                const history = await historyRes.json();
+
+                if (!connected) {
+                    connected = true;
+                    document.getElementById('statusBadge').className = 'status-badge online';
+                    document.getElementById('statusText').textContent = 'Conectado';
+                }
+
+                // Update cards
+                document.getElementById('cardPower').textContent = (stats.current_power_watts || 0).toFixed(1) + ' W';
+                document.getElementById('cardCpu').textContent = (stats.avg_cpu_percent || 0).toFixed(1) + '%';
+                document.getElementById('cardGpu').textContent = (stats.avg_gpu_percent || 0).toFixed(1) + '%';
+                document.getElementById('cardRam').textContent = (stats.avg_ram_percent || 0).toFixed(1) + '%';
+                document.getElementById('cardEnergy').textContent = (stats.total_energy_kwh || 0).toFixed(4) + ' kWh';
+                document.getElementById('cardTemp').textContent = 'N/A';
+
+                // Update last time
+                const lastRec = history[history.length - 1];
+                if (lastRec) {
+                    document.getElementById('cardPowerSub').textContent = 'Última: ' + new Date(lastRec.timestamp).toLocaleTimeString();
+                }
+
+                // Update history table (last 10)
+                const tbody = document.getElementById('historyTable');
+                const recent = history.slice(-10).reverse();
+                tbody.innerHTML = '';
+                recent.forEach(rec => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML =
+                        '<td>' + new Date(rec.timestamp).toLocaleTimeString() + '</td>' +
+                        '<td class="val-w">' + rec.total_power_watts.toFixed(1) + ' W</td>' +
+                        '<td class="val-green">' + rec.cpu_percent.toFixed(1) + '%</td>' +
+                        '<td class="val-blue">' + rec.gpu_percent.toFixed(1) + '%</td>' +
+                        '<td class="val-purple">' + rec.ram_percent.toFixed(1) + '%</td>' +
+                        '<td class="val-w">N/A</td>';
+                    tbody.appendChild(tr);
+                });
+
+                // Update charts
+                dataHistory = history.slice(-60);
+                const labels = dataHistory.map(r => new Date(r.timestamp).toLocaleTimeString());
+                const powers = dataHistory.map(r => r.total_power_watts);
+                const cpus = dataHistory.map(r => r.cpu_percent);
+                const gpus = dataHistory.map(r => r.gpu_percent);
+                const rams = dataHistory.map(r => r.ram_percent);
+
+                powerChart.data.labels = labels;
+                powerChart.data.datasets[0].data = powers;
+                powerChart.update('none');
+
+                loadChart.data.labels = labels;
+                loadChart.data.datasets[0].data = cpus;
+                loadChart.data.datasets[1].data = gpus;
+                loadChart.data.datasets[2].data = rams;
+                loadChart.update('none');
+
+            } catch (e) {
+                console.error('Erro:', e);
+                if (!connected) {
+                    document.getElementById('statusBadge').className = 'status-badge offline';
+                    document.getElementById('statusText').textContent = 'Servor indisponível';
+                }
+            }
+        }
+
+        fetchData();
+        setInterval(fetchData, 3000);
+    </script>
+</body>
+</html>

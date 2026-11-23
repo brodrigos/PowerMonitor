@@ -1,0 +1,16 @@
+# Dependências do PowerMonitor Pro
+
+# Monitoramento do sistema
+psutil==5.9.5
+
+# Interface gráfica (tkinter já vem com Python)
+# tk==19.4.0  # não é necessário, vem com Python
+
+# Gráficos e visualização
+matplotlib>=3.7.2
+
+# Exportação Excel
+openpyxl>=3.1.2
+
+# Utilitários
+# csv, json - módulos padrão do Python

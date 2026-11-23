@@ -1,0 +1,2018 @@
+[
+  {
+    "timestamp": "2026-11-21T20:27:17.731080",
+    "total_power_watts": 92.02,
+    "cpu_percent": 40.59,
+    "gpu_percent": 14.68,
+    "ram_percent": 21.86
+  },
+  {
+    "timestamp": "2026-11-21T20:32:17.731080",
+    "total_power_watts": 66.02,
+    "cpu_percent": 39.74,
+    "gpu_percent": 13.76,
+    "ram_percent": 22.83
+  },
+  {
+    "timestamp": "2026-11-21T20:37:17.731080",
+    "total_power_watts": 59.06,
+    "cpu_percent": 25.44,
+    "gpu_percent": 20.17,
+    "ram_percent": 31.15
+  },
+  {
+    "timestamp": "2026-11-21T20:42:17.731080",
+    "total_power_watts": 54.45,
+    "cpu_percent": 43.04,
+    "gpu_percent": 12.54,
+    "ram_percent": 30.16
+  },
+  {
+    "timestamp": "2026-11-21T20:47:17.731080",
+    "total_power_watts": 56.31,
+    "cpu_percent": 37.25,
+    "gpu_percent": 22.06,
+    "ram_percent": 24.46
+  },
+  {
+    "timestamp": "2026-11-21T20:52:17.731080",
+    "total_power_watts": 63.35,
+    "cpu_percent": 23.53,
+    "gpu_percent": 21.19,
+    "ram_percent": 21.77
+  },
+  {
+    "timestamp": "2026-11-21T20:57:17.731080",
+    "total_power_watts": 78.74,
+    "cpu_percent": 37.89,
+    "gpu_percent": 13.4,
+    "ram_percent": 32.14
+  },
+  {
+    "timestamp": "2026-11-21T21:02:17.731080",
+    "total_power_watts": 69.41,
+    "cpu_percent": 43.65,
+    "gpu_percent": 19.14,
+    "ram_percent": 29.47
+  },
+  {
+    "timestamp": "2026-11-21T21:07:17.731080",
+    "total_power_watts": 74.7,
+    "cpu_percent": 43.91,
+    "gpu_percent": 26.24,
+    "ram_percent": 33.05
+  },
+  {
+    "timestamp": "2026-11-21T21:12:17.731080",
+    "total_power_watts": 66.5,
+    "cpu_percent": 33.67,
+    "gpu_percent": 18.25,
+    "ram_percent": 24.62
+  },
+  {
+    "timestamp": "2026-11-21T21:17:17.731080",
+    "total_power_watts": 84.6,
+    "cpu_percent": 32.5,
+    "gpu_percent": 20.89,
+    "ram_percent": 24.69
+  },
+  {
+    "timestamp": "2026-11-21T21:22:17.731080",
+    "total_power_watts": 91.31,
+    "cpu_percent": 26.02,
+    "gpu_percent": 16.31,
+    "ram_percent": 37.44
+  },
+  {
+    "timestamp": "2026-11-21T21:27:17.731080",
+    "total_power_watts": 91.86,
+    "cpu_percent": 38.27,
+    "gpu_percent": 17.24,
+    "ram_percent": 35.98
+  },
+  {
+    "timestamp": "2026-11-21T21:32:17.731080",
+    "total_power_watts": 69.25,
+    "cpu_percent": 29.0,
+    "gpu_percent": 22.44,
+    "ram_percent": 38.61
+  },
+  {
+    "timestamp": "2026-11-21T21:37:17.731080",
+    "total_power_watts": 57.95,
+    "cpu_percent": 37.81,
+    "gpu_percent": 24.37,
+    "ram_percent": 25.2
+  },
+  {
+    "timestamp": "2026-11-21T21:42:17.731080",
+    "total_power_watts": 50.88,
+    "cpu_percent": 30.24,
+    "gpu_percent": 14.95,
+    "ram_percent": 24.27
+  },
+  {
+    "timestamp": "2026-11-21T21:47:17.731080",
+    "total_power_watts": 69.78,
+    "cpu_percent": 41.47,
+    "gpu_percent": 13.93,
+    "ram_percent": 27.59
+  },
+  {
+    "timestamp": "2026-11-21T21:52:17.731080",
+    "total_power_watts": 55.84,
+    "cpu_percent": 34.34,
+    "gpu_percent": 22.51,
+    "ram_percent": 22.81
+  },
+  {
+    "timestamp": "2026-11-21T21:57:17.731080",
+    "total_power_watts": 69.88,
+    "cpu_percent": 24.84,
+    "gpu_percent": 21.86,
+    "ram_percent": 33.33
+  },
+  {
+    "timestamp": "2026-11-21T22:02:17.731080",
+    "total_power_watts": 88.92,
+    "cpu_percent": 39.95,
+    "gpu_percent": 25.9,
+    "ram_percent": 27.24
+  },
+  {
+    "timestamp": "2026-11-21T22:07:17.731080",
+    "total_power_watts": 89.52,
+    "cpu_percent": 36.06,
+    "gpu_percent": 17.36,
+    "ram_percent": 30.43
+  },
+  {
+    "timestamp": "2026-11-21T22:12:17.731080",
+    "total_power_watts": 63.98,
+    "cpu_percent": 38.74,
+    "gpu_percent": 23.26,
+    "ram_percent": 34.53
+  },
+  {
+    "timestamp": "2026-11-21T22:17:17.731080",
+    "total_power_watts": 68.85,
+    "cpu_percent": 39.43,
+    "gpu_percent": 22.3,
+    "ram_percent": 28.91
+  },
+  {
+    "timestamp": "2026-11-21T22:22:17.731080",
+    "total_power_watts": 71.74,
+    "cpu_percent": 37.11,
+    "gpu_percent": 26.8,
+    "ram_percent": 25.13
+  },
+  {
+    "timestamp": "2026-11-21T22:27:17.731080",
+    "total_power_watts": 47.92,
+    "cpu_percent": 39.06,
+    "gpu_percent": 14.97,
+    "ram_percent": 37.15
+  },
+  {
+    "timestamp": "2026-11-21T22:32:17.731080",
+    "total_power_watts": 49.5,
+    "cpu_percent": 29.37,
+    "gpu_percent": 18.71,
+    "ram_percent": 40.72
+  },
+  {
+    "timestamp": "2026-11-21T22:37:17.731080",
+    "total_power_watts": 61.62,
+    "cpu_percent": 30.45,
+    "gpu_percent": 27.42,
+    "ram_percent": 32.4
+  },
+  {
+    "timestamp": "2026-11-21T22:42:17.731080",
+    "total_power_watts": 60.7,
+    "cpu_percent": 28.54,
+    "gpu_percent": 22.93,
+    "ram_percent": 24.96
+  },
+  {
+    "timestamp": "2026-11-21T22:47:17.731080",
+    "total_power_watts": 59.21,
+    "cpu_percent": 25.18,
+    "gpu_percent": 19.83,
+    "ram_percent": 31.44
+  },
+  {
+    "timestamp": "2026-11-21T22:52:17.731080",
+    "total_power_watts": 48.99,
+    "cpu_percent": 30.7,
+    "gpu_percent": 17.12,
+    "ram_percent": 39.8
+  },
+  {
+    "timestamp": "2026-11-21T22:57:17.731080",
+    "total_power_watts": 85.39,
+    "cpu_percent": 44.69,
+    "gpu_percent": 19.23,
+    "ram_percent": 33.14
+  },
+  {
+    "timestamp": "2026-11-21T23:02:17.731080",
+    "total_power_watts": 60.25,
+    "cpu_percent": 43.53,
+    "gpu_percent": 17.02,
+    "ram_percent": 31.01
+  },
+  {
+    "timestamp": "2026-11-21T23:07:17.731080",
+    "total_power_watts": 93.17,
+    "cpu_percent": 31.4,
+    "gpu_percent": 14.56,
+    "ram_percent": 37.66
+  },
+  {
+    "timestamp": "2026-11-21T23:12:17.731080",
+    "total_power_watts": 66.05,
+    "cpu_percent": 38.48,
+    "gpu_percent": 28.65,
+    "ram_percent": 42.73
+  },
+  {
+    "timestamp": "2026-11-21T23:17:17.731080",
+    "total_power_watts": 76.97,
+    "cpu_percent": 44.9,
+    "gpu_percent": 28.41,
+    "ram_percent": 41.44
+  },
+  {
+    "timestamp": "2026-11-21T23:22:17.731080",
+    "total_power_watts": 52.45,
+    "cpu_percent": 28.1,
+    "gpu_percent": 14.98,
+    "ram_percent": 26.59
+  },
+  {
+    "timestamp": "2026-11-21T23:27:17.731080",
+    "total_power_watts": 52.85,
+    "cpu_percent": 31.7,
+    "gpu_percent": 14.56,
+    "ram_percent": 44.16
+  },
+  {
+    "timestamp": "2026-11-21T23:32:17.731080",
+    "total_power_watts": 94.35,
+    "cpu_percent": 38.6,
+    "gpu_percent": 20.86,
+    "ram_percent": 42.68
+  },
+  {
+    "timestamp": "2026-11-21T23:37:17.731080",
+    "total_power_watts": 89.04,
+    "cpu_percent": 33.2,
+    "gpu_percent": 19.74,
+    "ram_percent": 23.39
+  },
+  {
+    "timestamp": "2026-11-21T23:42:17.731080",
+    "total_power_watts": 58.33,
+    "cpu_percent": 39.74,
+    "gpu_percent": 17.42,
+    "ram_percent": 34.29
+  },
+  {
+    "timestamp": "2026-11-21T23:47:17.731080",
+    "total_power_watts": 56.7,
+    "cpu_percent": 48.75,
+    "gpu_percent": 23.85,
+    "ram_percent": 30.52
+  },
+  {
+    "timestamp": "2026-11-21T23:52:17.731080",
+    "total_power_watts": 92.82,
+    "cpu_percent": 48.05,
+    "gpu_percent": 17.56,
+    "ram_percent": 38.08
+  },
+  {
+    "timestamp": "2026-11-21T23:57:17.731080",
+    "total_power_watts": 76.76,
+    "cpu_percent": 37.45,
+    "gpu_percent": 19.61,
+    "ram_percent": 24.88
+  },
+  {
+    "timestamp": "2026-11-22T00:02:17.731080",
+    "total_power_watts": 69.05,
+    "cpu_percent": 22.79,
+    "gpu_percent": 10.95,
+    "ram_percent": 15.66
+  },
+  {
+    "timestamp": "2026-11-22T00:07:17.731080",
+    "total_power_watts": 52.62,
+    "cpu_percent": 25.05,
+    "gpu_percent": 15.25,
+    "ram_percent": 22.71
+  },
+  {
+    "timestamp": "2026-11-22T00:12:17.731080",
+    "total_power_watts": 72.08,
+    "cpu_percent": 25.8,
+    "gpu_percent": 13.49,
+    "ram_percent": 29.69
+  },
+  {
+    "timestamp": "2026-11-22T00:17:17.731080",
+    "total_power_watts": 56.34,
+    "cpu_percent": 28.68,
+    "gpu_percent": 14.29,
+    "ram_percent": 20.77
+  },
+  {
+    "timestamp": "2026-11-22T00:22:17.731080",
+    "total_power_watts": 52.94,
+    "cpu_percent": 29.43,
+    "gpu_percent": 17.9,
+    "ram_percent": 25.92
+  },
+  {
+    "timestamp": "2026-11-22T00:27:17.731080",
+    "total_power_watts": 56.88,
+    "cpu_percent": 21.82,
+    "gpu_percent": 13.78,
+    "ram_percent": 15.05
+  },
+  {
+    "timestamp": "2026-11-22T00:32:17.731080",
+    "total_power_watts": 39.61,
+    "cpu_percent": 27.34,
+    "gpu_percent": 15.97,
+    "ram_percent": 24.6
+  },
+  {
+    "timestamp": "2026-11-22T00:37:17.731080",
+    "total_power_watts": 64.92,
+    "cpu_percent": 29.38,
+    "gpu_percent": 17.84,
+    "ram_percent": 19.94
+  },
+  {
+    "timestamp": "2026-11-22T00:42:17.731080",
+    "total_power_watts": 77.26,
+    "cpu_percent": 26.26,
+    "gpu_percent": 15.56,
+    "ram_percent": 15.91
+  },
+  {
+    "timestamp": "2026-11-22T00:47:17.731080",
+    "total_power_watts": 64.82,
+    "cpu_percent": 30.07,
+    "gpu_percent": 19.75,
+    "ram_percent": 25.41
+  },
+  {
+    "timestamp": "2026-11-22T00:52:17.731080",
+    "total_power_watts": 71.76,
+    "cpu_percent": 17.52,
+    "gpu_percent": 14.79,
+    "ram_percent": 21.1
+  },
+  {
+    "timestamp": "2026-11-22T00:57:17.731080",
+    "total_power_watts": 66.82,
+    "cpu_percent": 17.79,
+    "gpu_percent": 14.29,
+    "ram_percent": 24.09
+  },
+  {
+    "timestamp": "2026-11-22T01:02:17.731080",
+    "total_power_watts": 75.94,
+    "cpu_percent": 27.84,
+    "gpu_percent": 15.02,
+    "ram_percent": 31.34
+  },
+  {
+    "timestamp": "2026-11-22T01:07:17.731080",
+    "total_power_watts": 46.42,
+    "cpu_percent": 28.69,
+    "gpu_percent": 11.62,
+    "ram_percent": 22.86
+  },
+  {
+    "timestamp": "2026-11-22T01:12:17.731080",
+    "total_power_watts": 82.07,
+    "cpu_percent": 22.8,
+    "gpu_percent": 15.11,
+    "ram_percent": 27.84
+  },
+  {
+    "timestamp": "2026-11-22T01:17:17.731080",
+    "total_power_watts": 74.38,
+    "cpu_percent": 24.91,
+    "gpu_percent": 21.2,
+    "ram_percent": 19.14
+  },
+  {
+    "timestamp": "2026-11-22T01:22:17.731080",
+    "total_power_watts": 55.07,
+    "cpu_percent": 26.11,
+    "gpu_percent": 20.62,
+    "ram_percent": 31.93
+  },
+  {
+    "timestamp": "2026-11-22T01:27:17.731080",
+    "total_power_watts": 37.3,
+    "cpu_percent": 32.49,
+    "gpu_percent": 12.24,
+    "ram_percent": 30.97
+  },
+  {
+    "timestamp": "2026-11-22T01:32:17.731080",
+    "total_power_watts": 57.89,
+    "cpu_percent": 25.43,
+    "gpu_percent": 20.24,
+    "ram_percent": 32.69
+  },
+  {
+    "timestamp": "2026-11-22T01:37:17.731080",
+    "total_power_watts": 51.0,
+    "cpu_percent": 26.44,
+    "gpu_percent": 18.54,
+    "ram_percent": 21.11
+  },
+  {
+    "timestamp": "2026-11-22T01:42:17.731080",
+    "total_power_watts": 83.19,
+    "cpu_percent": 33.6,
+    "gpu_percent": 16.3,
+    "ram_percent": 29.11
+  },
+  {
+    "timestamp": "2026-11-22T01:47:17.731080",
+    "total_power_watts": 81.31,
+    "cpu_percent": 32.04,
+    "gpu_percent": 11.76,
+    "ram_percent": 22.06
+  },
+  {
+    "timestamp": "2026-11-22T01:52:17.731080",
+    "total_power_watts": 49.91,
+    "cpu_percent": 31.02,
+    "gpu_percent": 13.44,
+    "ram_percent": 25.14
+  },
+  {
+    "timestamp": "2026-11-22T01:57:17.731080",
+    "total_power_watts": 71.42,
+    "cpu_percent": 20.05,
+    "gpu_percent": 15.73,
+    "ram_percent": 31.17
+  },
+  {
+    "timestamp": "2026-11-22T02:02:17.731080",
+    "total_power_watts": 51.87,
+    "cpu_percent": 33.55,
+    "gpu_percent": 15.54,
+    "ram_percent": 25.12
+  },
+  {
+    "timestamp": "2026-11-22T02:07:17.731080",
+    "total_power_watts": 50.5,
+    "cpu_percent": 29.28,
+    "gpu_percent": 20.69,
+    "ram_percent": 21.7
+  },
+  {
+    "timestamp": "2026-11-22T02:12:17.731080",
+    "total_power_watts": 75.8,
+    "cpu_percent": 22.44,
+    "gpu_percent": 15.88,
+    "ram_percent": 34.67
+  },
+  {
+    "timestamp": "2026-11-22T02:17:17.731080",
+    "total_power_watts": 74.28,
+    "cpu_percent": 34.46,
+    "gpu_percent": 17.8,
+    "ram_percent": 30.86
+  },
+  {
+    "timestamp": "2026-11-22T02:22:17.731080",
+    "total_power_watts": 49.34,
+    "cpu_percent": 30.57,
+    "gpu_percent": 16.23,
+    "ram_percent": 35.37
+  },
+  {
+    "timestamp": "2026-11-22T02:27:17.731080",
+    "total_power_watts": 51.59,
+    "cpu_percent": 36.83,
+    "gpu_percent": 20.68,
+    "ram_percent": 33.51
+  },
+  {
+    "timestamp": "2026-11-22T02:32:17.731080",
+    "total_power_watts": 52.0,
+    "cpu_percent": 25.8,
+    "gpu_percent": 17.47,
+    "ram_percent": 31.58
+  },
+  {
+    "timestamp": "2026-11-22T02:37:17.731080",
+    "total_power_watts": 84.61,
+    "cpu_percent": 36.06,
+    "gpu_percent": 22.2,
+    "ram_percent": 21.36
+  },
+  {
+    "timestamp": "2026-11-22T02:42:17.731080",
+    "total_power_watts": 55.41,
+    "cpu_percent": 20.04,
+    "gpu_percent": 16.06,
+    "ram_percent": 18.82
+  },
+  {
+    "timestamp": "2026-11-22T02:47:17.731080",
+    "total_power_watts": 40.41,
+    "cpu_percent": 27.44,
+    "gpu_percent": 13.19,
+    "ram_percent": 23.87
+  },
+  {
+    "timestamp": "2026-11-22T02:52:17.731080",
+    "total_power_watts": 50.71,
+    "cpu_percent": 29.5,
+    "gpu_percent": 21.2,
+    "ram_percent": 26.19
+  },
+  {
+    "timestamp": "2026-11-22T02:57:17.731080",
+    "total_power_watts": 85.15,
+    "cpu_percent": 22.88,
+    "gpu_percent": 12.5,
+    "ram_percent": 21.39
+  },
+  {
+    "timestamp": "2026-11-22T03:02:17.731080",
+    "total_power_watts": 81.79,
+    "cpu_percent": 32.06,
+    "gpu_percent": 16.92,
+    "ram_percent": 38.34
+  },
+  {
+    "timestamp": "2026-11-22T03:07:17.731080",
+    "total_power_watts": 56.5,
+    "cpu_percent": 33.96,
+    "gpu_percent": 23.03,
+    "ram_percent": 38.94
+  },
+  {
+    "timestamp": "2026-11-22T03:12:17.731080",
+    "total_power_watts": 83.45,
+    "cpu_percent": 33.26,
+    "gpu_percent": 20.03,
+    "ram_percent": 34.8
+  },
+  {
+    "timestamp": "2026-11-22T03:17:17.731080",
+    "total_power_watts": 59.3,
+    "cpu_percent": 32.02,
+    "gpu_percent": 12.09,
+    "ram_percent": 39.5
+  },
+  {
+    "timestamp": "2026-11-22T03:22:17.731080",
+    "total_power_watts": 62.28,
+    "cpu_percent": 22.26,
+    "gpu_percent": 20.09,
+    "ram_percent": 26.54
+  },
+  {
+    "timestamp": "2026-11-22T03:27:17.731080",
+    "total_power_watts": 75.64,
+    "cpu_percent": 25.95,
+    "gpu_percent": 22.78,
+    "ram_percent": 23.47
+  },
+  {
+    "timestamp": "2026-11-22T03:32:17.731080",
+    "total_power_watts": 75.28,
+    "cpu_percent": 26.51,
+    "gpu_percent": 17.64,
+    "ram_percent": 35.68
+  },
+  {
+    "timestamp": "2026-11-22T03:37:17.731080",
+    "total_power_watts": 56.67,
+    "cpu_percent": 27.65,
+    "gpu_percent": 19.71,
+    "ram_percent": 28.74
+  },
+  {
+    "timestamp": "2026-11-22T03:42:17.731080",
+    "total_power_watts": 67.39,
+    "cpu_percent": 33.0,
+    "gpu_percent": 22.0,
+    "ram_percent": 30.88
+  },
+  {
+    "timestamp": "2026-11-22T03:47:17.731080",
+    "total_power_watts": 56.64,
+    "cpu_percent": 31.69,
+    "gpu_percent": 14.01,
+    "ram_percent": 21.19
+  },
+  {
+    "timestamp": "2026-11-22T03:52:17.731080",
+    "total_power_watts": 81.61,
+    "cpu_percent": 28.46,
+    "gpu_percent": 17.17,
+    "ram_percent": 36.04
+  },
+  {
+    "timestamp": "2026-11-22T03:57:17.731080",
+    "total_power_watts": 60.71,
+    "cpu_percent": 33.82,
+    "gpu_percent": 18.31,
+    "ram_percent": 26.98
+  },
+  {
+    "timestamp": "2026-11-22T04:02:17.731080",
+    "total_power_watts": 49.11,
+    "cpu_percent": 26.39,
+    "gpu_percent": 15.41,
+    "ram_percent": 39.56
+  },
+  {
+    "timestamp": "2026-11-22T04:07:17.731080",
+    "total_power_watts": 51.88,
+    "cpu_percent": 38.53,
+    "gpu_percent": 23.17,
+    "ram_percent": 41.81
+  },
+  {
+    "timestamp": "2026-11-22T04:12:17.731080",
+    "total_power_watts": 73.82,
+    "cpu_percent": 27.28,
+    "gpu_percent": 14.98,
+    "ram_percent": 35.58
+  },
+  {
+    "timestamp": "2026-11-22T04:17:17.731080",
+    "total_power_watts": 42.99,
+    "cpu_percent": 28.35,
+    "gpu_percent": 23.55,
+    "ram_percent": 35.81
+  },
+  {
+    "timestamp": "2026-11-22T04:22:17.731080",
+    "total_power_watts": 51.95,
+    "cpu_percent": 37.97,
+    "gpu_percent": 17.63,
+    "ram_percent": 42.45
+  },
+  {
+    "timestamp": "2026-11-22T04:27:17.731080",
+    "total_power_watts": 41.01,
+    "cpu_percent": 36.61,
+    "gpu_percent": 19.88,
+    "ram_percent": 29.34
+  },
+  {
+    "timestamp": "2026-11-22T04:32:17.731080",
+    "total_power_watts": 60.6,
+    "cpu_percent": 22.98,
+    "gpu_percent": 19.75,
+    "ram_percent": 30.01
+  },
+  {
+    "timestamp": "2026-11-22T04:37:17.731080",
+    "total_power_watts": 78.51,
+    "cpu_percent": 27.57,
+    "gpu_percent": 22.07,
+    "ram_percent": 28.0
+  },
+  {
+    "timestamp": "2026-11-22T04:42:17.731080",
+    "total_power_watts": 62.73,
+    "cpu_percent": 34.67,
+    "gpu_percent": 12.54,
+    "ram_percent": 30.4
+  },
+  {
+    "timestamp": "2026-11-22T04:47:17.731080",
+    "total_power_watts": 88.41,
+    "cpu_percent": 31.3,
+    "gpu_percent": 20.22,
+    "ram_percent": 40.05
+  },
+  {
+    "timestamp": "2026-11-22T04:52:17.731080",
+    "total_power_watts": 77.51,
+    "cpu_percent": 27.24,
+    "gpu_percent": 24.32,
+    "ram_percent": 31.55
+  },
+  {
+    "timestamp": "2026-11-22T04:57:17.731080",
+    "total_power_watts": 48.53,
+    "cpu_percent": 39.9,
+    "gpu_percent": 12.81,
+    "ram_percent": 25.17
+  },
+  {
+    "timestamp": "2026-11-22T05:02:17.731080",
+    "total_power_watts": 45.07,
+    "cpu_percent": 35.17,
+    "gpu_percent": 20.16,
+    "ram_percent": 41.96
+  },
+  {
+    "timestamp": "2026-11-22T05:07:17.731080",
+    "total_power_watts": 72.11,
+    "cpu_percent": 35.66,
+    "gpu_percent": 25.59,
+    "ram_percent": 25.91
+  },
+  {
+    "timestamp": "2026-11-22T05:12:17.731080",
+    "total_power_watts": 42.73,
+    "cpu_percent": 35.93,
+    "gpu_percent": 18.38,
+    "ram_percent": 45.34
+  },
+  {
+    "timestamp": "2026-11-22T05:17:17.731080",
+    "total_power_watts": 71.35,
+    "cpu_percent": 23.28,
+    "gpu_percent": 15.73,
+    "ram_percent": 39.59
+  },
+  {
+    "timestamp": "2026-11-22T05:22:17.731080",
+    "total_power_watts": 53.49,
+    "cpu_percent": 28.68,
+    "gpu_percent": 13.3,
+    "ram_percent": 42.95
+  },
+  {
+    "timestamp": "2026-11-22T05:27:17.731080",
+    "total_power_watts": 72.17,
+    "cpu_percent": 33.19,
+    "gpu_percent": 25.2,
+    "ram_percent": 25.32
+  },
+  {
+    "timestamp": "2026-11-22T05:32:17.731080",
+    "total_power_watts": 78.37,
+    "cpu_percent": 23.36,
+    "gpu_percent": 24.87,
+    "ram_percent": 36.2
+  },
+  {
+    "timestamp": "2026-11-22T05:37:17.731080",
+    "total_power_watts": 49.47,
+    "cpu_percent": 24.27,
+    "gpu_percent": 17.73,
+    "ram_percent": 25.28
+  },
+  {
+    "timestamp": "2026-11-22T05:42:17.731080",
+    "total_power_watts": 68.22,
+    "cpu_percent": 28.06,
+    "gpu_percent": 24.22,
+    "ram_percent": 39.29
+  },
+  {
+    "timestamp": "2026-11-22T05:47:17.731080",
+    "total_power_watts": 68.43,
+    "cpu_percent": 32.6,
+    "gpu_percent": 15.21,
+    "ram_percent": 43.74
+  },
+  {
+    "timestamp": "2026-11-22T05:52:17.731080",
+    "total_power_watts": 70.06,
+    "cpu_percent": 21.9,
+    "gpu_percent": 14.11,
+    "ram_percent": 30.95
+  },
+  {
+    "timestamp": "2026-11-22T05:57:17.731080",
+    "total_power_watts": 67.03,
+    "cpu_percent": 32.96,
+    "gpu_percent": 16.76,
+    "ram_percent": 31.59
+  },
+  {
+    "timestamp": "2026-11-22T06:02:17.731080",
+    "total_power_watts": 73.94,
+    "cpu_percent": 21.72,
+    "gpu_percent": 18.61,
+    "ram_percent": 28.87
+  },
+  {
+    "timestamp": "2026-11-22T06:07:17.731080",
+    "total_power_watts": 53.89,
+    "cpu_percent": 22.44,
+    "gpu_percent": 15.25,
+    "ram_percent": 16.29
+  },
+  {
+    "timestamp": "2026-11-22T06:12:17.731080",
+    "total_power_watts": 74.9,
+    "cpu_percent": 35.87,
+    "gpu_percent": 17.97,
+    "ram_percent": 18.44
+  },
+  {
+    "timestamp": "2026-11-22T06:17:17.731080",
+    "total_power_watts": 43.17,
+    "cpu_percent": 41.88,
+    "gpu_percent": 17.47,
+    "ram_percent": 17.12
+  },
+  {
+    "timestamp": "2026-11-22T06:22:17.731080",
+    "total_power_watts": 85.15,
+    "cpu_percent": 26.68,
+    "gpu_percent": 23.88,
+    "ram_percent": 16.92
+  },
+  {
+    "timestamp": "2026-11-22T06:27:17.731080",
+    "total_power_watts": 68.43,
+    "cpu_percent": 36.75,
+    "gpu_percent": 22.21,
+    "ram_percent": 22.65
+  },
+  {
+    "timestamp": "2026-11-22T06:32:17.731080",
+    "total_power_watts": 76.28,
+    "cpu_percent": 40.52,
+    "gpu_percent": 25.87,
+    "ram_percent": 24.01
+  },
+  {
+    "timestamp": "2026-11-22T06:37:17.731080",
+    "total_power_watts": 69.74,
+    "cpu_percent": 40.83,
+    "gpu_percent": 15.27,
+    "ram_percent": 28.44
+  },
+  {
+    "timestamp": "2026-11-22T06:42:17.731080",
+    "total_power_watts": 88.97,
+    "cpu_percent": 30.38,
+    "gpu_percent": 15.24,
+    "ram_percent": 27.55
+  },
+  {
+    "timestamp": "2026-11-22T06:47:17.731080",
+    "total_power_watts": 86.9,
+    "cpu_percent": 22.14,
+    "gpu_percent": 26.96,
+    "ram_percent": 19.85
+  },
+  {
+    "timestamp": "2026-11-22T06:52:17.731080",
+    "total_power_watts": 55.2,
+    "cpu_percent": 32.95,
+    "gpu_percent": 14.69,
+    "ram_percent": 24.95
+  },
+  {
+    "timestamp": "2026-11-22T06:57:17.731080",
+    "total_power_watts": 57.67,
+    "cpu_percent": 32.03,
+    "gpu_percent": 15.19,
+    "ram_percent": 25.57
+  },
+  {
+    "timestamp": "2026-11-22T07:02:17.731080",
+    "total_power_watts": 76.57,
+    "cpu_percent": 36.3,
+    "gpu_percent": 27.11,
+    "ram_percent": 17.44
+  },
+  {
+    "timestamp": "2026-11-22T07:07:17.731080",
+    "total_power_watts": 46.43,
+    "cpu_percent": 34.83,
+    "gpu_percent": 17.38,
+    "ram_percent": 33.02
+  },
+  {
+    "timestamp": "2026-11-22T07:12:17.731080",
+    "total_power_watts": 76.3,
+    "cpu_percent": 27.68,
+    "gpu_percent": 17.23,
+    "ram_percent": 32.6
+  },
+  {
+    "timestamp": "2026-11-22T07:17:17.731080",
+    "total_power_watts": 63.63,
+    "cpu_percent": 32.39,
+    "gpu_percent": 26.8,
+    "ram_percent": 19.53
+  },
+  {
+    "timestamp": "2026-11-22T07:22:17.731080",
+    "total_power_watts": 88.39,
+    "cpu_percent": 32.29,
+    "gpu_percent": 17.87,
+    "ram_percent": 17.84
+  },
+  {
+    "timestamp": "2026-11-22T07:27:17.731080",
+    "total_power_watts": 79.27,
+    "cpu_percent": 37.32,
+    "gpu_percent": 16.28,
+    "ram_percent": 21.42
+  },
+  {
+    "timestamp": "2026-11-22T07:32:17.731080",
+    "total_power_watts": 70.59,
+    "cpu_percent": 43.08,
+    "gpu_percent": 19.6,
+    "ram_percent": 23.15
+  },
+  {
+    "timestamp": "2026-11-22T07:37:17.731080",
+    "total_power_watts": 54.16,
+    "cpu_percent": 33.34,
+    "gpu_percent": 19.64,
+    "ram_percent": 21.19
+  },
+  {
+    "timestamp": "2026-11-22T07:42:17.731080",
+    "total_power_watts": 79.46,
+    "cpu_percent": 39.15,
+    "gpu_percent": 23.06,
+    "ram_percent": 23.23
+  },
+  {
+    "timestamp": "2026-11-22T07:47:17.731080",
+    "total_power_watts": 84.79,
+    "cpu_percent": 43.64,
+    "gpu_percent": 26.45,
+    "ram_percent": 22.43
+  },
+  {
+    "timestamp": "2026-11-22T07:52:17.731080",
+    "total_power_watts": 65.1,
+    "cpu_percent": 25.52,
+    "gpu_percent": 17.02,
+    "ram_percent": 21.42
+  },
+  {
+    "timestamp": "2026-11-22T07:57:17.731080",
+    "total_power_watts": 48.22,
+    "cpu_percent": 32.13,
+    "gpu_percent": 23.57,
+    "ram_percent": 29.79
+  },
+  {
+    "timestamp": "2026-11-22T08:02:17.731080",
+    "total_power_watts": 53.5,
+    "cpu_percent": 31.17,
+    "gpu_percent": 11.15,
+    "ram_percent": 24.5
+  },
+  {
+    "timestamp": "2026-11-22T08:07:17.731080",
+    "total_power_watts": 83.71,
+    "cpu_percent": 26.71,
+    "gpu_percent": 15.08,
+    "ram_percent": 20.56
+  },
+  {
+    "timestamp": "2026-11-22T08:12:17.731080",
+    "total_power_watts": 47.54,
+    "cpu_percent": 24.76,
+    "gpu_percent": 19.73,
+    "ram_percent": 22.52
+  },
+  {
+    "timestamp": "2026-11-22T08:17:17.731080",
+    "total_power_watts": 67.62,
+    "cpu_percent": 33.82,
+    "gpu_percent": 15.72,
+    "ram_percent": 28.63
+  },
+  {
+    "timestamp": "2026-11-22T08:22:17.731080",
+    "total_power_watts": 56.72,
+    "cpu_percent": 24.26,
+    "gpu_percent": 14.64,
+    "ram_percent": 28.53
+  },
+  {
+    "timestamp": "2026-11-22T08:27:17.731080",
+    "total_power_watts": 86.45,
+    "cpu_percent": 36.24,
+    "gpu_percent": 15.27,
+    "ram_percent": 27.16
+  },
+  {
+    "timestamp": "2026-11-22T08:32:17.731080",
+    "total_power_watts": 70.49,
+    "cpu_percent": 26.09,
+    "gpu_percent": 17.47,
+    "ram_percent": 19.7
+  },
+  {
+    "timestamp": "2026-11-22T08:37:17.731080",
+    "total_power_watts": 60.12,
+    "cpu_percent": 23.39,
+    "gpu_percent": 18.9,
+    "ram_percent": 28.36
+  },
+  {
+    "timestamp": "2026-11-22T08:42:17.731080",
+    "total_power_watts": 48.28,
+    "cpu_percent": 30.39,
+    "gpu_percent": 19.48,
+    "ram_percent": 26.29
+  },
+  {
+    "timestamp": "2026-11-22T08:47:17.731080",
+    "total_power_watts": 80.64,
+    "cpu_percent": 33.67,
+    "gpu_percent": 10.59,
+    "ram_percent": 23.49
+  },
+  {
+    "timestamp": "2026-11-22T08:52:17.731080",
+    "total_power_watts": 54.39,
+    "cpu_percent": 24.58,
+    "gpu_percent": 18.31,
+    "ram_percent": 33.43
+  },
+  {
+    "timestamp": "2026-11-22T08:57:17.731080",
+    "total_power_watts": 53.4,
+    "cpu_percent": 40.08,
+    "gpu_percent": 19.34,
+    "ram_percent": 25.58
+  },
+  {
+    "timestamp": "2026-11-22T09:02:17.731080",
+    "total_power_watts": 65.79,
+    "cpu_percent": 23.2,
+    "gpu_percent": 12.71,
+    "ram_percent": 30.16
+  },
+  {
+    "timestamp": "2026-11-22T09:07:17.731080",
+    "total_power_watts": 86.5,
+    "cpu_percent": 34.55,
+    "gpu_percent": 14.5,
+    "ram_percent": 27.26
+  },
+  {
+    "timestamp": "2026-11-22T09:12:17.731080",
+    "total_power_watts": 75.09,
+    "cpu_percent": 42.3,
+    "gpu_percent": 16.37,
+    "ram_percent": 26.06
+  },
+  {
+    "timestamp": "2026-11-22T09:17:17.731080",
+    "total_power_watts": 68.85,
+    "cpu_percent": 37.84,
+    "gpu_percent": 14.8,
+    "ram_percent": 22.72
+  },
+  {
+    "timestamp": "2026-11-22T09:22:17.731080",
+    "total_power_watts": 93.79,
+    "cpu_percent": 40.8,
+    "gpu_percent": 14.33,
+    "ram_percent": 29.51
+  },
+  {
+    "timestamp": "2026-11-22T09:27:17.731080",
+    "total_power_watts": 78.47,
+    "cpu_percent": 41.73,
+    "gpu_percent": 18.52,
+    "ram_percent": 22.87
+  },
+  {
+    "timestamp": "2026-11-22T09:32:17.731080",
+    "total_power_watts": 63.91,
+    "cpu_percent": 44.47,
+    "gpu_percent": 18.26,
+    "ram_percent": 29.4
+  },
+  {
+    "timestamp": "2026-11-22T09:37:17.731080",
+    "total_power_watts": 67.75,
+    "cpu_percent": 23.52,
+    "gpu_percent": 21.13,
+    "ram_percent": 22.32
+  },
+  {
+    "timestamp": "2026-11-22T09:42:17.731080",
+    "total_power_watts": 84.67,
+    "cpu_percent": 23.48,
+    "gpu_percent": 13.0,
+    "ram_percent": 23.28
+  },
+  {
+    "timestamp": "2026-11-22T09:47:17.731080",
+    "total_power_watts": 76.61,
+    "cpu_percent": 29.16,
+    "gpu_percent": 19.41,
+    "ram_percent": 27.21
+  },
+  {
+    "timestamp": "2026-11-22T09:52:17.731080",
+    "total_power_watts": 57.11,
+    "cpu_percent": 44.11,
+    "gpu_percent": 17.24,
+    "ram_percent": 24.19
+  },
+  {
+    "timestamp": "2026-11-22T09:57:17.731080",
+    "total_power_watts": 59.97,
+    "cpu_percent": 23.93,
+    "gpu_percent": 17.8,
+    "ram_percent": 34.87
+  },
+  {
+    "timestamp": "2026-11-22T10:02:17.731080",
+    "total_power_watts": 79.93,
+    "cpu_percent": 36.84,
+    "gpu_percent": 18.18,
+    "ram_percent": 24.09
+  },
+  {
+    "timestamp": "2026-11-22T10:07:17.731080",
+    "total_power_watts": 65.27,
+    "cpu_percent": 34.63,
+    "gpu_percent": 16.41,
+    "ram_percent": 34.57
+  },
+  {
+    "timestamp": "2026-11-22T10:12:17.731080",
+    "total_power_watts": 88.31,
+    "cpu_percent": 35.8,
+    "gpu_percent": 21.4,
+    "ram_percent": 29.74
+  },
+  {
+    "timestamp": "2026-11-22T10:17:17.731080",
+    "total_power_watts": 96.19,
+    "cpu_percent": 32.63,
+    "gpu_percent": 11.53,
+    "ram_percent": 29.35
+  },
+  {
+    "timestamp": "2026-11-22T10:22:17.731080",
+    "total_power_watts": 60.58,
+    "cpu_percent": 39.14,
+    "gpu_percent": 18.53,
+    "ram_percent": 41.12
+  },
+  {
+    "timestamp": "2026-11-22T10:27:17.731080",
+    "total_power_watts": 82.32,
+    "cpu_percent": 33.67,
+    "gpu_percent": 16.67,
+    "ram_percent": 39.76
+  },
+  {
+    "timestamp": "2026-11-22T10:32:17.731080",
+    "total_power_watts": 93.52,
+    "cpu_percent": 29.14,
+    "gpu_percent": 20.09,
+    "ram_percent": 25.33
+  },
+  {
+    "timestamp": "2026-11-22T10:37:17.731080",
+    "total_power_watts": 60.94,
+    "cpu_percent": 36.04,
+    "gpu_percent": 15.37,
+    "ram_percent": 35.88
+  },
+  {
+    "timestamp": "2026-11-22T10:42:17.731080",
+    "total_power_watts": 79.88,
+    "cpu_percent": 39.1,
+    "gpu_percent": 11.55,
+    "ram_percent": 41.79
+  },
+  {
+    "timestamp": "2026-11-22T10:47:17.731080",
+    "total_power_watts": 53.32,
+    "cpu_percent": 37.53,
+    "gpu_percent": 13.32,
+    "ram_percent": 26.69
+  },
+  {
+    "timestamp": "2026-11-22T10:52:17.731080",
+    "total_power_watts": 52.92,
+    "cpu_percent": 30.21,
+    "gpu_percent": 21.82,
+    "ram_percent": 34.8
+  },
+  {
+    "timestamp": "2026-11-22T10:57:17.731080",
+    "total_power_watts": 68.06,
+    "cpu_percent": 25.8,
+    "gpu_percent": 18.48,
+    "ram_percent": 40.24
+  },
+  {
+    "timestamp": "2026-11-22T11:02:17.731080",
+    "total_power_watts": 97.05,
+    "cpu_percent": 35.4,
+    "gpu_percent": 18.8,
+    "ram_percent": 23.52
+  },
+  {
+    "timestamp": "2026-11-22T11:07:17.731080",
+    "total_power_watts": 63.08,
+    "cpu_percent": 47.67,
+    "gpu_percent": 17.59,
+    "ram_percent": 31.47
+  },
+  {
+    "timestamp": "2026-11-22T11:12:17.731080",
+    "total_power_watts": 73.04,
+    "cpu_percent": 32.53,
+    "gpu_percent": 13.74,
+    "ram_percent": 39.53
+  },
+  {
+    "timestamp": "2026-11-22T11:17:17.731080",
+    "total_power_watts": 67.38,
+    "cpu_percent": 32.93,
+    "gpu_percent": 12.53,
+    "ram_percent": 38.68
+  },
+  {
+    "timestamp": "2026-11-22T11:22:17.731080",
+    "total_power_watts": 78.83,
+    "cpu_percent": 28.33,
+    "gpu_percent": 17.04,
+    "ram_percent": 31.39
+  },
+  {
+    "timestamp": "2026-11-22T11:27:17.731080",
+    "total_power_watts": 59.17,
+    "cpu_percent": 27.12,
+    "gpu_percent": 23.51,
+    "ram_percent": 43.95
+  },
+  {
+    "timestamp": "2026-11-22T11:32:17.731080",
+    "total_power_watts": 74.2,
+    "cpu_percent": 32.84,
+    "gpu_percent": 20.01,
+    "ram_percent": 30.92
+  },
+  {
+    "timestamp": "2026-11-22T11:37:17.731080",
+    "total_power_watts": 70.43,
+    "cpu_percent": 28.67,
+    "gpu_percent": 19.28,
+    "ram_percent": 24.34
+  },
+  {
+    "timestamp": "2026-11-22T11:42:17.731080",
+    "total_power_watts": 75.57,
+    "cpu_percent": 48.16,
+    "gpu_percent": 20.27,
+    "ram_percent": 23.6
+  },
+  {
+    "timestamp": "2026-11-22T11:47:17.731080",
+    "total_power_watts": 59.29,
+    "cpu_percent": 39.93,
+    "gpu_percent": 20.89,
+    "ram_percent": 36.15
+  },
+  {
+    "timestamp": "2026-11-22T11:52:17.731080",
+    "total_power_watts": 52.17,
+    "cpu_percent": 40.57,
+    "gpu_percent": 19.28,
+    "ram_percent": 41.85
+  },
+  {
+    "timestamp": "2026-11-22T11:57:17.731080",
+    "total_power_watts": 75.13,
+    "cpu_percent": 28.69,
+    "gpu_percent": 14.0,
+    "ram_percent": 40.03
+  },
+  {
+    "timestamp": "2026-11-22T12:02:17.731080",
+    "total_power_watts": 73.03,
+    "cpu_percent": 23.38,
+    "gpu_percent": 20.37,
+    "ram_percent": 26.21
+  },
+  {
+    "timestamp": "2026-11-22T12:07:17.731080",
+    "total_power_watts": 52.08,
+    "cpu_percent": 19.01,
+    "gpu_percent": 16.68,
+    "ram_percent": 15.83
+  },
+  {
+    "timestamp": "2026-11-22T12:12:17.731080",
+    "total_power_watts": 72.12,
+    "cpu_percent": 21.48,
+    "gpu_percent": 19.35,
+    "ram_percent": 18.93
+  },
+  {
+    "timestamp": "2026-11-22T12:17:17.731080",
+    "total_power_watts": 69.23,
+    "cpu_percent": 26.25,
+    "gpu_percent": 23.51,
+    "ram_percent": 18.62
+  },
+  {
+    "timestamp": "2026-11-22T12:22:17.731080",
+    "total_power_watts": 63.02,
+    "cpu_percent": 17.66,
+    "gpu_percent": 14.37,
+    "ram_percent": 16.26
+  },
+  {
+    "timestamp": "2026-11-22T12:27:17.731080",
+    "total_power_watts": 78.5,
+    "cpu_percent": 30.61,
+    "gpu_percent": 14.67,
+    "ram_percent": 15.84
+  },
+  {
+    "timestamp": "2026-11-22T12:32:17.731080",
+    "total_power_watts": 70.24,
+    "cpu_percent": 22.21,
+    "gpu_percent": 15.57,
+    "ram_percent": 21.69
+  },
+  {
+    "timestamp": "2026-11-22T12:37:17.731080",
+    "total_power_watts": 54.63,
+    "cpu_percent": 24.17,
+    "gpu_percent": 13.17,
+    "ram_percent": 24.23
+  },
+  {
+    "timestamp": "2026-11-22T12:42:17.731080",
+    "total_power_watts": 48.29,
+    "cpu_percent": 25.1,
+    "gpu_percent": 22.17,
+    "ram_percent": 27.45
+  },
+  {
+    "timestamp": "2026-11-22T12:47:17.731080",
+    "total_power_watts": 79.77,
+    "cpu_percent": 21.22,
+    "gpu_percent": 24.29,
+    "ram_percent": 17.72
+  },
+  {
+    "timestamp": "2026-11-22T12:52:17.731080",
+    "total_power_watts": 50.02,
+    "cpu_percent": 22.17,
+    "gpu_percent": 19.74,
+    "ram_percent": 23.81
+  },
+  {
+    "timestamp": "2026-11-22T12:57:17.731080",
+    "total_power_watts": 70.46,
+    "cpu_percent": 27.38,
+    "gpu_percent": 22.69,
+    "ram_percent": 28.23
+  },
+  {
+    "timestamp": "2026-11-22T13:02:17.731080",
+    "total_power_watts": 66.33,
+    "cpu_percent": 31.8,
+    "gpu_percent": 17.32,
+    "ram_percent": 20.46
+  },
+  {
+    "timestamp": "2026-11-22T13:07:17.731080",
+    "total_power_watts": 40.04,
+    "cpu_percent": 26.97,
+    "gpu_percent": 23.08,
+    "ram_percent": 24.29
+  },
+  {
+    "timestamp": "2026-11-22T13:12:17.731080",
+    "total_power_watts": 39.6,
+    "cpu_percent": 28.25,
+    "gpu_percent": 17.54,
+    "ram_percent": 20.12
+  },
+  {
+    "timestamp": "2026-11-22T13:17:17.731080",
+    "total_power_watts": 75.06,
+    "cpu_percent": 34.17,
+    "gpu_percent": 17.88,
+    "ram_percent": 32.53
+  },
+  {
+    "timestamp": "2026-11-22T13:22:17.731080",
+    "total_power_watts": 71.25,
+    "cpu_percent": 33.23,
+    "gpu_percent": 13.95,
+    "ram_percent": 19.5
+  },
+  {
+    "timestamp": "2026-11-22T13:27:17.731080",
+    "total_power_watts": 78.49,
+    "cpu_percent": 21.97,
+    "gpu_percent": 16.01,
+    "ram_percent": 30.01
+  },
+  {
+    "timestamp": "2026-11-22T13:32:17.731080",
+    "total_power_watts": 43.67,
+    "cpu_percent": 20.53,
+    "gpu_percent": 25.33,
+    "ram_percent": 17.89
+  },
+  {
+    "timestamp": "2026-11-22T13:37:17.731080",
+    "total_power_watts": 81.21,
+    "cpu_percent": 30.34,
+    "gpu_percent": 21.31,
+    "ram_percent": 28.73
+  },
+  {
+    "timestamp": "2026-11-22T13:42:17.731080",
+    "total_power_watts": 57.01,
+    "cpu_percent": 23.46,
+    "gpu_percent": 26.11,
+    "ram_percent": 17.42
+  },
+  {
+    "timestamp": "2026-11-22T13:47:17.731080",
+    "total_power_watts": 86.15,
+    "cpu_percent": 30.3,
+    "gpu_percent": 15.37,
+    "ram_percent": 33.2
+  },
+  {
+    "timestamp": "2026-11-22T13:52:17.731080",
+    "total_power_watts": 61.5,
+    "cpu_percent": 21.95,
+    "gpu_percent": 24.64,
+    "ram_percent": 31.9
+  },
+  {
+    "timestamp": "2026-11-22T13:57:17.731080",
+    "total_power_watts": 58.92,
+    "cpu_percent": 25.97,
+    "gpu_percent": 22.34,
+    "ram_percent": 28.9
+  },
+  {
+    "timestamp": "2026-11-22T14:02:17.731080",
+    "total_power_watts": 43.42,
+    "cpu_percent": 24.33,
+    "gpu_percent": 18.35,
+    "ram_percent": 29.46
+  },
+  {
+    "timestamp": "2026-11-22T14:07:17.731080",
+    "total_power_watts": 43.53,
+    "cpu_percent": 24.33,
+    "gpu_percent": 21.52,
+    "ram_percent": 34.78
+  },
+  {
+    "timestamp": "2026-11-22T14:12:17.731080",
+    "total_power_watts": 62.64,
+    "cpu_percent": 20.89,
+    "gpu_percent": 24.51,
+    "ram_percent": 29.73
+  },
+  {
+    "timestamp": "2026-11-22T14:17:17.731080",
+    "total_power_watts": 69.82,
+    "cpu_percent": 29.42,
+    "gpu_percent": 26.12,
+    "ram_percent": 32.0
+  },
+  {
+    "timestamp": "2026-11-22T14:22:17.731080",
+    "total_power_watts": 65.84,
+    "cpu_percent": 25.52,
+    "gpu_percent": 19.84,
+    "ram_percent": 26.93
+  },
+  {
+    "timestamp": "2026-11-22T14:27:17.731080",
+    "total_power_watts": 64.0,
+    "cpu_percent": 33.71,
+    "gpu_percent": 25.41,
+    "ram_percent": 28.64
+  },
+  {
+    "timestamp": "2026-11-22T14:32:17.731080",
+    "total_power_watts": 86.47,
+    "cpu_percent": 33.58,
+    "gpu_percent": 25.73,
+    "ram_percent": 33.46
+  },
+  {
+    "timestamp": "2026-11-22T14:37:17.731080",
+    "total_power_watts": 86.31,
+    "cpu_percent": 21.42,
+    "gpu_percent": 14.81,
+    "ram_percent": 28.43
+  },
+  {
+    "timestamp": "2026-11-22T14:42:17.731080",
+    "total_power_watts": 39.35,
+    "cpu_percent": 28.46,
+    "gpu_percent": 16.29,
+    "ram_percent": 34.1
+  },
+  {
+    "timestamp": "2026-11-22T14:47:17.731080",
+    "total_power_watts": 77.66,
+    "cpu_percent": 25.4,
+    "gpu_percent": 26.7,
+    "ram_percent": 20.36
+  },
+  {
+    "timestamp": "2026-11-22T14:52:17.731080",
+    "total_power_watts": 40.37,
+    "cpu_percent": 35.29,
+    "gpu_percent": 26.01,
+    "ram_percent": 35.4
+  },
+  {
+    "timestamp": "2026-11-22T14:57:17.731080",
+    "total_power_watts": 62.55,
+    "cpu_percent": 27.07,
+    "gpu_percent": 25.76,
+    "ram_percent": 21.03
+  },
+  {
+    "timestamp": "2026-11-22T15:02:17.731080",
+    "total_power_watts": 76.75,
+    "cpu_percent": 32.85,
+    "gpu_percent": 28.48,
+    "ram_percent": 37.02
+  },
+  {
+    "timestamp": "2026-11-22T15:07:17.731080",
+    "total_power_watts": 51.76,
+    "cpu_percent": 28.66,
+    "gpu_percent": 20.53,
+    "ram_percent": 28.65
+  },
+  {
+    "timestamp": "2026-11-22T15:12:17.731080",
+    "total_power_watts": 43.3,
+    "cpu_percent": 31.8,
+    "gpu_percent": 16.41,
+    "ram_percent": 30.35
+  },
+  {
+    "timestamp": "2026-11-22T15:17:17.731080",
+    "total_power_watts": 52.99,
+    "cpu_percent": 35.28,
+    "gpu_percent": 26.74,
+    "ram_percent": 30.54
+  },
+  {
+    "timestamp": "2026-11-22T15:22:17.731080",
+    "total_power_watts": 48.34,
+    "cpu_percent": 23.21,
+    "gpu_percent": 23.83,
+    "ram_percent": 38.02
+  },
+  {
+    "timestamp": "2026-11-22T15:27:17.731080",
+    "total_power_watts": 81.69,
+    "cpu_percent": 30.26,
+    "gpu_percent": 27.64,
+    "ram_percent": 37.74
+  },
+  {
+    "timestamp": "2026-11-22T15:32:17.731080",
+    "total_power_watts": 67.17,
+    "cpu_percent": 20.35,
+    "gpu_percent": 22.51,
+    "ram_percent": 26.41
+  },
+  {
+    "timestamp": "2026-11-22T15:37:17.731080",
+    "total_power_watts": 83.71,
+    "cpu_percent": 22.36,
+    "gpu_percent": 23.95,
+    "ram_percent": 26.74
+  },
+  {
+    "timestamp": "2026-11-22T15:42:17.731080",
+    "total_power_watts": 72.12,
+    "cpu_percent": 38.05,
+    "gpu_percent": 19.88,
+    "ram_percent": 25.56
+  },
+  {
+    "timestamp": "2026-11-22T15:47:17.731080",
+    "total_power_watts": 87.9,
+    "cpu_percent": 33.77,
+    "gpu_percent": 26.63,
+    "ram_percent": 23.95
+  },
+  {
+    "timestamp": "2026-11-22T15:52:17.731080",
+    "total_power_watts": 56.38,
+    "cpu_percent": 37.82,
+    "gpu_percent": 16.86,
+    "ram_percent": 24.56
+  },
+  {
+    "timestamp": "2026-11-22T15:57:17.731080",
+    "total_power_watts": 60.94,
+    "cpu_percent": 33.57,
+    "gpu_percent": 25.49,
+    "ram_percent": 32.34
+  },
+  {
+    "timestamp": "2026-11-22T16:02:17.731080",
+    "total_power_watts": 71.27,
+    "cpu_percent": 37.74,
+    "gpu_percent": 14.54,
+    "ram_percent": 27.42
+  },
+  {
+    "timestamp": "2026-11-22T16:07:17.731080",
+    "total_power_watts": 40.17,
+    "cpu_percent": 38.54,
+    "gpu_percent": 18.53,
+    "ram_percent": 35.46
+  },
+  {
+    "timestamp": "2026-11-22T16:12:17.731080",
+    "total_power_watts": 52.6,
+    "cpu_percent": 39.26,
+    "gpu_percent": 18.05,
+    "ram_percent": 34.93
+  },
+  {
+    "timestamp": "2026-11-22T16:17:17.731080",
+    "total_power_watts": 43.54,
+    "cpu_percent": 24.1,
+    "gpu_percent": 16.53,
+    "ram_percent": 25.68
+  },
+  {
+    "timestamp": "2026-11-22T16:22:17.731080",
+    "total_power_watts": 54.29,
+    "cpu_percent": 38.48,
+    "gpu_percent": 12.29,
+    "ram_percent": 22.59
+  },
+  {
+    "timestamp": "2026-11-22T16:27:17.731080",
+    "total_power_watts": 71.82,
+    "cpu_percent": 25.52,
+    "gpu_percent": 17.23,
+    "ram_percent": 21.9
+  },
+  {
+    "timestamp": "2026-11-22T16:32:17.731080",
+    "total_power_watts": 50.29,
+    "cpu_percent": 34.73,
+    "gpu_percent": 10.83,
+    "ram_percent": 24.69
+  },
+  {
+    "timestamp": "2026-11-22T16:37:17.731080",
+    "total_power_watts": 42.89,
+    "cpu_percent": 23.98,
+    "gpu_percent": 14.34,
+    "ram_percent": 23.01
+  },
+  {
+    "timestamp": "2026-11-22T16:42:17.731080",
+    "total_power_watts": 49.43,
+    "cpu_percent": 39.04,
+    "gpu_percent": 17.94,
+    "ram_percent": 22.75
+  },
+  {
+    "timestamp": "2026-11-22T16:47:17.731080",
+    "total_power_watts": 81.68,
+    "cpu_percent": 22.68,
+    "gpu_percent": 17.91,
+    "ram_percent": 21.79
+  },
+  {
+    "timestamp": "2026-11-22T16:52:17.731080",
+    "total_power_watts": 41.17,
+    "cpu_percent": 24.39,
+    "gpu_percent": 14.14,
+    "ram_percent": 39.23
+  },
+  {
+    "timestamp": "2026-11-22T16:57:17.731080",
+    "total_power_watts": 82.95,
+    "cpu_percent": 20.9,
+    "gpu_percent": 13.67,
+    "ram_percent": 24.02
+  },
+  {
+    "timestamp": "2026-11-22T17:02:17.731080",
+    "total_power_watts": 85.73,
+    "cpu_percent": 24.54,
+    "gpu_percent": 19.28,
+    "ram_percent": 23.9
+  },
+  {
+    "timestamp": "2026-11-22T17:07:17.731080",
+    "total_power_watts": 86.23,
+    "cpu_percent": 31.25,
+    "gpu_percent": 18.55,
+    "ram_percent": 32.09
+  },
+  {
+    "timestamp": "2026-11-22T17:12:17.731080",
+    "total_power_watts": 66.46,
+    "cpu_percent": 33.77,
+    "gpu_percent": 15.79,
+    "ram_percent": 33.62
+  },
+  {
+    "timestamp": "2026-11-22T17:17:17.731080",
+    "total_power_watts": 70.79,
+    "cpu_percent": 38.66,
+    "gpu_percent": 16.23,
+    "ram_percent": 39.16
+  },
+  {
+    "timestamp": "2026-11-22T17:22:17.731080",
+    "total_power_watts": 81.09,
+    "cpu_percent": 38.79,
+    "gpu_percent": 13.67,
+    "ram_percent": 39.67
+  },
+  {
+    "timestamp": "2026-11-22T17:27:17.731080",
+    "total_power_watts": 62.65,
+    "cpu_percent": 26.17,
+    "gpu_percent": 11.51,
+    "ram_percent": 39.05
+  },
+  {
+    "timestamp": "2026-11-22T17:32:17.731080",
+    "total_power_watts": 51.04,
+    "cpu_percent": 30.17,
+    "gpu_percent": 20.14,
+    "ram_percent": 32.41
+  },
+  {
+    "timestamp": "2026-11-22T17:37:17.731080",
+    "total_power_watts": 89.77,
+    "cpu_percent": 32.52,
+    "gpu_percent": 21.18,
+    "ram_percent": 24.33
+  },
+  {
+    "timestamp": "2026-11-22T17:42:17.731080",
+    "total_power_watts": 42.63,
+    "cpu_percent": 22.62,
+    "gpu_percent": 19.15,
+    "ram_percent": 23.69
+  },
+  {
+    "timestamp": "2026-11-22T17:47:17.731080",
+    "total_power_watts": 83.72,
+    "cpu_percent": 31.97,
+    "gpu_percent": 13.61,
+    "ram_percent": 31.51
+  },
+  {
+    "timestamp": "2026-11-22T17:52:17.731080",
+    "total_power_watts": 85.25,
+    "cpu_percent": 26.63,
+    "gpu_percent": 15.19,
+    "ram_percent": 45.42
+  },
+  {
+    "timestamp": "2026-11-22T17:57:17.731080",
+    "total_power_watts": 42.17,
+    "cpu_percent": 20.97,
+    "gpu_percent": 17.65,
+    "ram_percent": 28.81
+  },
+  {
+    "timestamp": "2026-11-22T18:02:17.731080",
+    "total_power_watts": 61.65,
+    "cpu_percent": 23.53,
+    "gpu_percent": 11.55,
+    "ram_percent": 20.38
+  },
+  {
+    "timestamp": "2026-11-22T18:07:17.731080",
+    "total_power_watts": 74.02,
+    "cpu_percent": 23.8,
+    "gpu_percent": 12.98,
+    "ram_percent": 24.43
+  },
+  {
+    "timestamp": "2026-11-22T18:12:17.731080",
+    "total_power_watts": 90.23,
+    "cpu_percent": 25.95,
+    "gpu_percent": 20.8,
+    "ram_percent": 29.58
+  },
+  {
+    "timestamp": "2026-11-22T18:17:17.731080",
+    "total_power_watts": 55.47,
+    "cpu_percent": 39.67,
+    "gpu_percent": 22.17,
+    "ram_percent": 25.4
+  },
+  {
+    "timestamp": "2026-11-22T18:22:17.731080",
+    "total_power_watts": 54.93,
+    "cpu_percent": 37.4,
+    "gpu_percent": 11.8,
+    "ram_percent": 19.93
+  },
+  {
+    "timestamp": "2026-11-22T18:27:17.731080",
+    "total_power_watts": 42.51,
+    "cpu_percent": 36.96,
+    "gpu_percent": 15.93,
+    "ram_percent": 23.68
+  },
+  {
+    "timestamp": "2026-11-22T18:32:17.731080",
+    "total_power_watts": 60.02,
+    "cpu_percent": 34.89,
+    "gpu_percent": 19.41,
+    "ram_percent": 22.07
+  },
+  {
+    "timestamp": "2026-11-22T18:37:17.731080",
+    "total_power_watts": 80.72,
+    "cpu_percent": 26.31,
+    "gpu_percent": 17.2,
+    "ram_percent": 20.05
+  },
+  {
+    "timestamp": "2026-11-22T18:42:17.731080",
+    "total_power_watts": 51.86,
+    "cpu_percent": 22.66,
+    "gpu_percent": 18.39,
+    "ram_percent": 29.58
+  },
+  {
+    "timestamp": "2026-11-22T18:47:17.731080",
+    "total_power_watts": 62.89,
+    "cpu_percent": 32.16,
+    "gpu_percent": 18.95,
+    "ram_percent": 23.58
+  },
+  {
+    "timestamp": "2026-11-22T18:52:17.731080",
+    "total_power_watts": 52.55,
+    "cpu_percent": 25.69,
+    "gpu_percent": 15.9,
+    "ram_percent": 18.45
+  },
+  {
+    "timestamp": "2026-11-22T18:57:17.731080",
+    "total_power_watts": 53.88,
+    "cpu_percent": 30.58,
+    "gpu_percent": 17.71,
+    "ram_percent": 25.18
+  },
+  {
+    "timestamp": "2026-11-22T19:02:17.731080",
+    "total_power_watts": 91.85,
+    "cpu_percent": 38.72,
+    "gpu_percent": 19.15,
+    "ram_percent": 27.01
+  },
+  {
+    "timestamp": "2026-11-22T19:07:17.731080",
+    "total_power_watts": 60.35,
+    "cpu_percent": 37.75,
+    "gpu_percent": 12.06,
+    "ram_percent": 20.02
+  },
+  {
+    "timestamp": "2026-11-22T19:12:17.731080",
+    "total_power_watts": 88.45,
+    "cpu_percent": 32.5,
+    "gpu_percent": 22.18,
+    "ram_percent": 30.65
+  },
+  {
+    "timestamp": "2026-11-22T19:17:17.731080",
+    "total_power_watts": 44.84,
+    "cpu_percent": 35.11,
+    "gpu_percent": 12.51,
+    "ram_percent": 23.44
+  },
+  {
+    "timestamp": "2026-11-22T19:22:17.731080",
+    "total_power_watts": 78.79,
+    "cpu_percent": 34.51,
+    "gpu_percent": 21.85,
+    "ram_percent": 18.15
+  },
+  {
+    "timestamp": "2026-11-22T19:27:17.731080",
+    "total_power_watts": 51.9,
+    "cpu_percent": 31.67,
+    "gpu_percent": 14.04,
+    "ram_percent": 25.47
+  },
+  {
+    "timestamp": "2026-11-22T19:32:17.731080",
+    "total_power_watts": 88.48,
+    "cpu_percent": 25.72,
+    "gpu_percent": 17.91,
+    "ram_percent": 21.26
+  },
+  {
+    "timestamp": "2026-11-22T19:37:17.731080",
+    "total_power_watts": 62.06,
+    "cpu_percent": 38.54,
+    "gpu_percent": 23.26,
+    "ram_percent": 30.47
+  },
+  {
+    "timestamp": "2026-11-22T19:42:17.731080",
+    "total_power_watts": 89.88,
+    "cpu_percent": 38.59,
+    "gpu_percent": 21.01,
+    "ram_percent": 24.92
+  },
+  {
+    "timestamp": "2026-11-22T19:47:17.731080",
+    "total_power_watts": 74.24,
+    "cpu_percent": 28.88,
+    "gpu_percent": 21.69,
+    "ram_percent": 23.44
+  },
+  {
+    "timestamp": "2026-11-22T19:52:17.731080",
+    "total_power_watts": 82.97,
+    "cpu_percent": 23.32,
+    "gpu_percent": 23.28,
+    "ram_percent": 18.09
+  },
+  {
+    "timestamp": "2026-11-22T19:57:17.731080",
+    "total_power_watts": 81.33,
+    "cpu_percent": 38.68,
+    "gpu_percent": 17.87,
+    "ram_percent": 18.96
+  },
+  {
+    "timestamp": "2026-11-22T20:02:17.731080",
+    "total_power_watts": 77.82,
+    "cpu_percent": 38.74,
+    "gpu_percent": 23.13,
+    "ram_percent": 29.12
+  },
+  {
+    "timestamp": "2026-11-22T20:07:17.731080",
+    "total_power_watts": 72.16,
+    "cpu_percent": 29.95,
+    "gpu_percent": 17.84,
+    "ram_percent": 34.59
+  },
+  {
+    "timestamp": "2026-11-22T20:12:17.731080",
+    "total_power_watts": 46.95,
+    "cpu_percent": 26.03,
+    "gpu_percent": 24.51,
+    "ram_percent": 30.92
+  },
+  {
+    "timestamp": "2026-11-22T20:17:17.731080",
+    "total_power_watts": 62.32,
+    "cpu_percent": 25.86,
+    "gpu_percent": 24.18,
+    "ram_percent": 28.71
+  },
+  {
+    "timestamp": "2026-11-22T20:22:17.731080",
+    "total_power_watts": 56.4,
+    "cpu_percent": 30.62,
+    "gpu_percent": 13.33,
+    "ram_percent": 26.11
+  }
+]
