@@ -23,6 +23,7 @@ class PowerMonitor:
         self.history = []
         self.start_time = datetime.now()
         self.running = False
+        self._last_cpu_percent = None
         self._ensure_storage_dir()
         
     def _ensure_storage_dir(self):
@@ -54,6 +55,7 @@ class PowerMonitor:
     def get_cpu_power(self):
         """Estimar consumo de energia da CPU"""
         cpu_percent = psutil.cpu_percent(interval=0.1)
+        self._last_cpu_percent = cpu_percent
         # Estimativa baseada na carga da CPU (simplificada)
         # Em um sistema real, você precisaria de calibração específica
         cpu_power = (cpu_percent / 100) * 100  # Watts estimados
@@ -78,15 +80,13 @@ class PowerMonitor:
     
     def get_gpu_info(self):
         """Obter informações sobre GPU (se disponível)"""
-        try:
-            # Usando psutil para informações básicas
-            gpu_percent = psutil.cpu_percent(interval=0.1, percpu=False)
-            return {
-                'gpu_load': gpu_percent,  # Esta é uma aproximação
-                'gpu_power': round((gpu_percent / 100) * 75, 2)  # Estimativa em Watts
-            }
-        except:
-            return {'gpu_load': 0, 'gpu_power': 0}
+        # Usar o percent de CPU apenas como proxy (psutil não tem acesso direto a GPU sem nvidia-ml)
+        # Reutilizar _last_cpu_percent para evitar segunda chamada de psutil.cpu_percent()
+        gpu_percent = self._last_cpu_percent if self._last_cpu_percent is not None else 0
+        return {
+            'gpu_load': gpu_percent,
+            'gpu_power': round((gpu_percent / 100) * 75, 2)
+        }
     
     def get_ram_usage(self):
         """Obter uso de memória RAM"""
